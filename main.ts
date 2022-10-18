@@ -10,11 +10,11 @@ input.onButtonPressed(Button.A, function () {
     } else if (input.compassHeading() == 180) {
         basic.showArrow(ArrowNames.South)
     } else if (input.compassHeading() == 225) {
-        basic.showArrow(ArrowNames.SouthEast)
+        basic.showArrow(ArrowNames.SouthWest)
     } else if (input.compassHeading() == 270) {
         basic.showArrow(ArrowNames.West)
     } else if (input.compassHeading() == 315) {
-        basic.showArrow(ArrowNames.NorthEast)
+        basic.showArrow(ArrowNames.NorthWest)
     }
 })
 input.onButtonPressed(Button.B, function () {
